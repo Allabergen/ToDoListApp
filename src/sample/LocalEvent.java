@@ -29,7 +29,7 @@ public class LocalEvent {
 
     @Override
     public String toString() {
-        return  "At: " + date +
+        return  "" + date +
                 "\t" + description;
     }
 }

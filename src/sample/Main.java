@@ -13,9 +13,10 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("ToDo List");
         primaryStage.setScene(new Scene(root));
+        primaryStage.setMinWidth(1110);
+        primaryStage.setMinHeight(150);
         primaryStage.show();
     }
-
 
     public static void main(String[] args) {
         launch(args);
